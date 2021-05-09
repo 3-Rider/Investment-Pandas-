@@ -1,3 +1,13 @@
+This project shows how Python and Pandas (a Python package) can be used to calculate return and risk statistics in a scalable manner by expanding the pandas module. 
+
+The project includes an example in which it creates a factsheet. The factsheet that was created by the code can be found in the "output examples" folder. This was based on the input
+data in the "data" folder. The example uses the Janus Henderson Triton Fund Class D fund (JANIX) data and the Russell 2000 growth index (^RUO) data as its benchmark. 
+The focus of the example is to illustrate the statistics that can be calculated with the code.
+
+Created by Eelco Ridder
+
+================================================
+
 This code is build around the module returnClasses.py, which introduces the classes ReturnFrame and ReturnSeries. 
 These extend the Pandas classes DataFrame and Series and are used to manipulate return information and calculate return based investment statistics. Currently the code only works with geometric returns.
 All methods that work on pandas DataFrames and Series work on ReturnFrames and ReturnSeries.
